@@ -1,0 +1,113 @@
+ @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+        body {
+            background: linear-gradient(to right, rgb(29, 136, 207), rgb(110, 25, 143));
+
+            font: 12pt Arial;
+        }
+
+        p,
+        label {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff
+        }
+
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-weight: normal;
+            text-align: center;
+            color: #fff;
+        }
+
+        h3 {
+            color: #fff;
+        }
+
+        #resultado {
+            font-size: 25px;
+        }
+
+        button {
+            font-size: 12pt;
+            padding: 10px;
+            background-color: slateblue;
+            color: #fff;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 1px 1px 5px black;
+            cursor: pointer;
+            transition: all 0.5s ease;
+            margin-left: 2em;
+
+
+        }
+
+        .final-step,
+        .second-step, 
+        .four-step {
+            display: none;
+
+        }
+
+        #second-step{
+            display: block;
+        }
+
+
+
+        .container .second-step .buttons {
+            margin-left: 7%;
+        }
+
+        button:hover {
+            background-color: steelblue;
+            transition: 0.5s;
+            transform: scale(1.1);
+
+        }
+
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 50%;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 1em;
+            border-radius: 15px;
+            display: flex;
+
+
+
+        }
+
+        .container .second-step {
+
+            margin: auto;
+        }
+
+        .container .second-step .inputs {
+            padding-left: 30%;
+
+            align-items: center;
+        }
+
+        input {
+            border-radius: 25px;
+            padding: 12px;
+            border: none;
+            box-shadow: 1px 1px 5px black;
+            font-size: 15px;
+
+
+
+
+        }
+
+
+        @media(max-width:768px) {
+            input {
+                width: 70%;
+            }
+        }
+   

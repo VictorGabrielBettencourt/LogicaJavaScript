@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1 - Javascript</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <h1>Digital Calculator</h1>
+    <div class="container">
+
+        <div class="second-step" id="second-step">
+            <p>Função: ler o número total de eleitores de um município, o número de votos brancos, nulos e válidos.</p>
+            <hr>
+            <div class="inputs">
+               
+                <input type="number" placeholder="Insira o primeiro Número" id="num1">
+                <br><br>
+
+                <input type="number" placeholder="Insira o segundo Número" id="num2">
+            </div>
+
+            <br><br>
+            <div class="buttons">
+                
+                <a href="indexPrincipal.html"><button>Anterior</button></a>
+                <button onclick="validate()">Calcular</button>
+                <a href="exer2.html"><button>Próximo</button></a>
+
+            </div>
+
+        </div>
+
+        <div class="final-step">
+            <h3>Resultado!</h3>
+            <p id="resultado"></p>
+            
+            <button onclick="go(3,2)">Calcular Novamente</button>
+            <a href="indexPrincipal.html"><button>Finalizar</button></a>
+
+        </div>
+
+        <div class="four-step">
+            <p>Função: ler um valor do teclado e exibir como resposta o número antecessor.</p>
+            <hr>
+            <div class="inputs">
+                
+                <input type="number" placeholder="Insira o primeiro Número" id="num1">
+                <br><br>
+
+                <input type="number" placeholder="Insira o segundo Número" id="num2">
+            </div>
+
+
+    </div>
+
+
+</body>
+<script src="js/navegacao.js"></script>
+
+</html>
